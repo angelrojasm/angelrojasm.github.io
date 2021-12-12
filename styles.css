@@ -45,6 +45,17 @@ footer {
 	text-align: justify;
 	font-size: 18px;
 }
+
+.project {
+	max-width: 25%;
+	margin: 3%;
+	font-family: 'Open Sans', 'Helvetica Neue';
+}
+
+.card-title {
+	font-weight: bold;
+}
+
 #home {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -71,14 +82,15 @@ footer {
 }
 
 #about-content {
-	display: flex;
 	margin: 0 auto;
-	justify-content: center;
 }
 
 #about-info-section {
 	width: 35%;
 	margin-left: 5%;
+}
+
+#project-section {
 }
 
 @media only screen and (max-width: 1100px) {
