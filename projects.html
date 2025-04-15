@@ -1,180 +1,364 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="styles.css" />
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-			crossorigin="anonymous"
-		/>
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-			crossorigin="anonymous"
-		></script>
-		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
-		<title>Projects</title>
-	</head>
-	<body>
-		<!--Header Nav Section-->
-		<nav class="navbar navbar-dark bg-dark sticky-top navbar-expand-sm navbar-light bg-light">
-			<div class="container-fluid">
-				<a class="navbar-brand" href="#">Angel Rojas</a>
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarNav"
-					aria-controls="navbarNav"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
-			</div>
-			<div class="collapse navbar-collapse me-5" id="navbarNav">
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link" aria-current="page" href="./index.html">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="./index.html">About</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link active" href="#">Projects</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-		<!-- Projects Section -->
-		<div id="projects">
-			<h4 class="section-title border-bottom border-2 border-primary">PROJECTS</h4>
-			<div id="project-section" class="d-flex justify-content-start flex-wrap">
-				<div class="card project shadow border">
-					<img src="./images/pacmen.png" class="card-img-top" alt="my-project" />
-					<div class="card-header">
-						<h5 class="card-title fw-bold">PacMen Factory</h5>
-						<p class="card-text">
-							Sandbox factory where you can create many different PacMan&trade; entites and
-							watch them run around! <br />
-							<br /><span class="sub-text"
-								>This project focuses on testing object positioning on the screen and
-								boundary recognition.</span
-							>
-						</p>
-					</div>
-					<div class="card-body d-flex justify-content-between">
-						<a
-							href="https://objective-wright-584b2e.netlify.app/"
-							target="_blank"
-							class="card-link fw-bold text-decoration-none"
-							>Live Demo</a
-						>
-						<a
-							href="https://github.com/angelrojasm/pacmen-factory"
-							target="_blank"
-							class="card-link fw-bold text-decoration-none"
-							>Source Code</a
-						>
-					</div>
-				</div>
-				<div class="card project shadow border">
-					<img src="./images/eyes.png" class="card-img-top" alt="my-project" />
-					<div class="card-header">
-						<h5 class="card-title fw-bold">Eye Tracker</h5>
-						<p class="card-text">
-							Move your mouse around the screen and watch the eyes follow you!
-							<br /><br />
-							<span class="sub-text"
-								>This project focuses on tracking the mouse's position on the screen.</span
-							>
-						</p>
-					</div>
-					<div class="card-body d-flex justify-content-between">
-						<a
-							href="https://heuristic-golick-b8331c.netlify.app/"
-							target="_blank"
-							class="card-link fw-bold text-decoration-none"
-							>Live Demo</a
-						>
-						<a
-							href="https://github.com/angelrojasm/eye-tracker"
-							target="_blank"
-							class="card-link fw-bold text-decoration-none"
-							>Source Code</a
-						>
-					</div>
-				</div>
-				<div class="card project shadow border">
-					<img src="./images/stops.png" class="card-img-top" alt="my-project" />
-					<div class="card-header">
-						<h5 class="card-title fw-bold">Real Time Bus Stop Tracker</h5>
-						<p class="card-text">
-							Check out the different bus stops in the route between MIT and Harvard!
-							<br /><br />
-							<span class="sub-text"
-								>This projects focuses on handling asynchronous code and third party
-								libraries.</span
-							>
-						</p>
-					</div>
-					<div class="card-body d-flex justify-content-between">
-						<a
-							href="https://nifty-cori-c46019.netlify.app/"
-							target="_blank"
-							class="card-link fw-bold text-decoration-none"
-							>Live Demo</a
-						>
-						<a
-							href="https://github.com/angelrojasm/real-time-bus-tracker"
-							target="_blank"
-							class="card-link fw-bold text-decoration-none"
-							>Source Code</a
-						>
-					</div>
-				</div>
-				<div class="card project shadow border">
-					<img src="./images/hanoi.png" class="card-img-top" alt="my-project" />
-					<div class="card-header">
-						<h5 class="card-title fw-bold">Tower of Hanoi</h5>
-						<p class="card-text">
-							Create and watch the solution for many scenarios in this iconic Math Problem!
-							<br /><br /><span class="sub-text"
-								>This project focuses on solving problems through recursion and animating
-								objects on the screen.</span
-							>
-						</p>
-					</div>
-					<div class="card-body d-flex justify-content-between">
-						<a
-							href="https://gifted-goldwasser-ad2715.netlify.app/"
-							target="_blank"
-							class="card-link fw-bold text-decoration-none"
-							>Live Demo</a
-						>
-						<a
-							href="https://github.com/angelrojasm/tower-of-hanoi"
-							target="_blank"
-							class="card-link fw-bold text-decoration-none"
-							>Source Code</a
-						>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Footer Section-->
-		<footer>
-			<p>&copy; 2021 Angel Rojas</p>
-		</footer>
-		<!-- Bootstrap JS Script -->
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-			crossorigin="anonymous"
-		></script>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Open+Sans"
+    />
+    <title>Work Highlights</title>
+  </head>
+  <body>
+    <!--Header Nav Section-->
+    <nav
+      class="navbar navbar-dark bg-dark sticky-top navbar-expand-sm navbar-light bg-light"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Angel Rojas</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse me-5" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Projects</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Projects Section -->
+    <div id="projects">
+      <h4 class="section-title border-bottom border-2 border-primary">
+        WORK HIGHLIGHTS
+      </h4>
+      <div class="projects-intro">
+        <p class="about-info">
+          A curated collection of projects that span my growth as a developer —
+          from early personal builds to production-ready systems powering real
+          businesses. These include freelance work, personal initiatives, and
+          major contributions as a Full Stack Engineer across several companies.
+        </p>
+      </div>
+
+      <div id="project-section" class="d-flex justify-content-start flex-wrap">
+        <div class="card project shadow border d-flex flex-column">
+          <img
+            src="./images/radical.png"
+            class="card-img-top"
+            alt="my-project"
+          />
+          <div class="card-body d-flex flex-column flex-grow-1">
+            <div class="card-header flex-grow-1">
+              <h5 class="card-title fw-bold">
+                Radical RD – E-commerce Platform
+              </h5>
+              <p class="card-subtitle">
+                Full-Stack Developer (Freelance) - Completed Feb. 2020
+              </p>
+              <p class="card-subtitle">Stack: React, Node.js, MongoDB, AWS</p>
+              <p class="card-text">
+                My first freelance project, An e-commerce web application built
+                for Radical RD, a local clothing brand. It includes a fully
+                functional storefront, admin panel, and integrated PayPal
+                payments.
+                <br /><br />
+                <strong>What I Did:</strong>
+              </p>
+              <ul class="card-text">
+                <li>
+                  Designed and built a responsive frontend and admin interface
+                  for inventory and order management
+                </li>
+                <li>Developed custom backend APIs using Node.js and MongoDB</li>
+                <li>Integrated PayPal for secure payment processing</li>
+                <li>
+                  Leveraged AWS Services (S3, Cloudfront) for seamless image
+                  storage and distribution.
+                </li>
+              </ul>
+            </div>
+            <div class="footer mt-auto pt-3 border-top">
+              <a
+                href="https://github.com/angelrojasm/Radical"
+                target="_blank"
+                class="card-link fw-bold text-decoration-none"
+                >Source Code</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card project shadow border">
+          <img
+            src="./images/liveperson.png"
+            class="card-img-top"
+            alt="my-project"
+          />
+          <div class="card-body d-flex flex-column flex-grow-1">
+            <div class="card-header flex-grow-1">
+              <h5 class="card-title fw-bold">LivePerson</h5>
+              <p class="card-subtitle">Full Stack Engineer</p>
+              <p class="card-subtitle">
+                Stack: Next.js, React, TypeScript, Manifest V3, Strapi
+              </p>
+              <p class="card-text">
+                LivePerson is a Conversational AI platform that powers messaging
+                bots for major enterprises.
+                <br /><br />
+                <strong>What I did:</strong>
+              </p>
+              <ul class="card-text">
+                <li>
+                  Built and maintained production-grade messaging bots using
+                  Node.js, Express, and JavaScript, handling over 300,000 weekly
+                  messages across major clients such as Spirit Airlines and PMI.
+                </li>
+                <li>
+                  Integrated bots with REST APIs and external services,
+                  enhancing real-time messaging and user flows.
+                </li>
+
+                <li>
+                  Integrated bots with REST APIs and external services,
+                  enhancing real-time messaging and user flows.
+                </li>
+                <li>
+                  Increased bot reliability by automating test flows and
+                  tightening integration between front-end chat interfaces and
+                  backend APIs.
+                </li>
+              </ul>
+            </div>
+            <div class="footer mt-auto pt-3 border-top">
+              <a
+                href="https://liveperson.com"
+                target="_blank"
+                class="card-link fw-bold text-decoration-none"
+                >Live Site</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card project shadow border">
+          <img src="./images/nok.png" class="card-img-top" alt="my-project" />
+          <div class="card-body d-flex flex-column flex-grow-1">
+            <div class="card-header flex-grow-1">
+              <h5 class="card-title fw-bold">Nok</h5>
+              <p class="card-subtitle">Full Stack Engineer</p>
+              <p class="card-subtitle">
+                Stack: Node.js, JavaScript, TypeScript, React, DynamoDB, AWS
+                Cognito, AWS Amplify (AppSync), AWS Lambda
+              </p>
+              <p class="card-text">
+                Nok was initially an e-commerce platform that focused on tryout
+                and recommerce features. I was a key player in the migration
+                from the tryout business model to a full recommerce approach,
+                working on both backend and frontend to implement new features
+                and ensure the smooth transition.
+                <br /><br />
+                <strong>What I did:</strong>
+              </p>
+              <ul class="card-text">
+                <li>
+                  Led the development of new e-commerce features, including
+                  payment processing, shipping, returns, and the management of
+                  tryout and keep orders.
+                </li>
+                <li>
+                  Worked on the backend to revamp data-side processes, ensuring
+                  smooth functionality of the new features.
+                </li>
+                <li>
+                  Contributed to the company’s strategic migration into the
+                  recommerce business, implementing key features, refactorings,
+                  and data migrations.
+                </li>
+                <li>
+                  Improved the scalability and efficiency of the e-commerce
+                  backend, making it more robust for future business changes.
+                </li>
+                <li>
+                  Enabled a smoother transition from the tryout to recommerce
+                  model, helping the company adapt to market demands, helping
+                  the company achieve its place on the
+                  <a href="https://www.inc.com/profile/nok-recommerce"
+                    >INC 5000 list of fastest-growing companies.</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="footer mt-auto pt-3 border-top">
+              <a
+                href="https://noktryouts.com"
+                target="_blank"
+                class="card-link fw-bold text-decoration-none"
+                >Tryouts Site (Legacy)</a
+              >
+              <a
+                href="https://nokrecommerce.com"
+                target="_blank"
+                class="card-link fw-bold text-decoration-none"
+                >Recommerce Site</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card project shadow border">
+          <img src="./images/zamu.png" class="card-img-top" alt="my-project" />
+          <div class="card-body d-flex flex-column flex-grow-1">
+            <div class="card-header flex-grow-1">
+              <h5 class="card-title fw-bold">Zamu</h5>
+              <p class="card-subtitle">Full Stack Engineer</p>
+              <p class="card-subtitle">
+                Stack: Next.js, React, TypeScript, Manifest V3, Strapi
+              </p>
+              <p class="card-text">
+                Zamu is a coupon finder browser extension that helps users
+                discover online coupons and earn cashback. The platform, similar
+                to CapitalOne Shopping, reached over 30,000 registered users and
+                provided seamless integrations for users to save money while
+                shopping online.
+                <br /><br />
+                <strong>What I did:</strong>
+              </p>
+              <ul class="card-text">
+                <li>
+                  Led the development of the web app section, built with
+                  Next.js, React, and TypeScript, ensuring scalability and
+                  performance as the platform grew.
+                </li>
+                <li>
+                  Worked on both the frontend and backend of the browser
+                  extension, implementing new features and fixing bugs.
+                </li>
+
+                <li>
+                  Maintained and updated the admin panel, optimizing workflows
+                  for internal users and improving overall system reliability.
+                </li>
+              </ul>
+            </div>
+            <div class="footer mt-auto pt-3 border-top">
+              <a
+                href="https://zamu.com"
+                target="_blank"
+                class="card-link fw-bold text-decoration-none"
+                >Live Site</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card project shadow border">
+          <img
+            src="./images/banking.png"
+            class="card-img-top"
+            alt="my-project"
+          />
+          <div class="card-body d-flex flex-column flex-grow-1">
+            <div class="card-header flex-grow-1">
+              <h5 class="card-title fw-bold">
+                Banking Budget – Work in Progress
+              </h5>
+              <p class="card-subtitle">
+                Creator / Full-Stack Developer (Personal Project)
+              </p>
+              <p class="card-subtitle">
+                Stack: React Native, Node.js (Express), AWS Lambda, PostgreSQL
+                (with Prisma ORM), Supabase
+              </p>
+              <p class="card-text">
+                Banking Budget (Temporal Name) is a mobile app that connects to
+                users’ email accounts to automatically track and categorize
+                financial transactions across multiple banks. The app offers
+                budgeting tools, spending analysis, and notifications for better
+                financial planning, all without the need for manual entry.
+                <br /><br />
+                <strong>What I'm Building:</strong>
+              </p>
+              <ul class="card-text">
+                <li>
+                  Backend developed with Node.js and Express to handle email
+                  parsing and transaction categorization.
+                </li>
+                <li>
+                  Scheduled Jobs using AWS Lambda and cron jobs to sync
+                  transactions and update budgets at regular intervals.
+                </li>
+                <li>
+                  Database transactions and user data are stored in a PostgreSQL
+                  database, with schema management and migrations powered by
+                  Prisma ORM.
+                </li>
+                <li>
+                  Built using React Native to provide a seamless, cross-platform
+                  user interface.
+                </li>
+                <li>
+                  Implementing notifications to alert users when they approach
+                  or exceed budget limits for specific categories or overall
+                  spending.
+                </li>
+              </ul>
+              <p class="card-text">
+                <strong>Why This Project?</strong>
+                <br />
+                <br />
+                I’m working on this app to help users in regions where banks
+                don’t provide APIs or webhooks to automate the tracking and
+                management of their finances. This app enables users to have all
+                their banking and budgeting data in one place, automatically.
+              </p>
+            </div>
+            <div class="footer mt-auto pt-3 border-top">
+              <span
+                href="#"
+                class="card-link fw-bold text-decoration-none disabled"
+              >
+                Source Code
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Section-->
+    <footer>
+      <p>&copy; 2025 Angel Rojas</p>
+    </footer>
+    <!-- Bootstrap JS Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
